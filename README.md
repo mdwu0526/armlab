@@ -17,13 +17,10 @@ A project for ROB 550: Robotics Systems Lab course taught in University of Michi
 - Path planning & path smoothing
 - State machines
 
-The whole pipeline can be explained by the following figure: 
-<img src="pipeline.PNG" width="500">
-
 ### Running the code
 
 1. `./launch_armlab.sh`
-1. `./control_station.py -c config/rx200_dh.csv`
+2. `./control_station.py -c config/rx200_dh.csv`
 
 ### Directories and Codebase 
 
@@ -40,13 +37,8 @@ The whole pipeline can be explained by the following figure:
 | `ui.py`| Output from QtCreator with GUI implementation in Python.|
 | `utils/camera_cal.py`| Standalone program to generate camera distortion parameters and camera intrinsic matrix after calibrating with a checkerboard.|
 
-### Lab setup
-
-<img src="lab_setup.jpg" width="500">
-
-### Teach 'n Play (on an Operations board)
-
-<img src="teachnplay.gif" width="500">
+### Report
+- Write up can be found in the repository as ROB550_Report
 
 ### Collaborators
 [Max Wu](https://www.linkedin.com/in/maxwu0526/), [Ashwin Saxena](https://www.linkedin.com/in/ashwin-s-6aa596169/) and [Ian Stewart](https://www.linkedin.com/in/icstewar/).
